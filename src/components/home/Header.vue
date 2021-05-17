@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img src="../../assets/headerImage.png" />
+    <img src="https://pbs.twimg.com/media/Etes-qOVEAArYDY?format=png&name=large" />
     <div class="slogan">
       <h1>Chihgusa Nishizono</h1>
       <h2>#にじさんじ #セレ女 #舞元の元嫁</h2>
@@ -18,7 +18,7 @@ export default {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 img {
   position: absolute;
@@ -39,14 +39,14 @@ img {
   font-family: 'Pacifico', cursive;
   margin-bottom: 20px;
   font-weight:normal;
-  text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+  text-shadow: var(--slogan-shadow);
 }
 
 .slogan h2 {
   font-size: 20px;
   font-family: 'Noto Sans JP';
   font-weight:normal;
-  text-shadow: 2px 1px 3px rgba(0,0,0,0.3);
+  text-shadow: var(--slogan-shadow);
 }
 
 @media only screen and (max-width: 599px){

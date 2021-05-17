@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="wrap">
-      <p class="bg"><img src="../../assets/ideltalk.jpeg" alt="ideltalk"></p>
+      <p class="bg"><img src="https://pbs.twimg.com/media/E0XrUsGVkAMrylG?format=jpg&name=large" alt="ideltalk"></p>
       <title-and-description
         class="txt"
         title="IDEL TALK"
@@ -9,7 +9,7 @@
       />
     </div>
     <div class="wrap" id="sec02_02">
-      <p class="bg"><img src="../../assets/song.jpeg" alt="song"></p>
+      <p class="bg"><img src="https://pbs.twimg.com/media/EmoZi9sWEAgiVR3?format=jpg&name=large" alt="song"></p>
       <title-and-description
         class="txt"
         title="SONG"
@@ -17,7 +17,7 @@
       />
     </div>
     <div class="wrap">
-      <p class="bg"><img src="../../assets/game.jpeg" alt="game"></p>
+      <p class="bg"><img src="https://pbs.twimg.com/media/EwGBosPUYAIgz5U?format=jpg&name=large" alt="game"></p>
       <title-and-description
         class="txt"
         title="GAME"
@@ -40,6 +40,7 @@ export default {
 .wrap{
   clear: both;
   width: 100%;
+  background: #f6f6f6;
 }
 
 img{
