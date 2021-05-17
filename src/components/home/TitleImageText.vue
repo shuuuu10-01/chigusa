@@ -37,11 +37,12 @@ img {
 }
 .col3 {
   text-align: center;
-  margin: auto;
+  margin: 500;
 }
 h2 {
   font-size: 18px;
   margin: auto;
+  font-weight: normal;
   font-family: 'Noto Sans JP';
 }
 p {

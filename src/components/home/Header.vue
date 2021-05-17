@@ -45,7 +45,6 @@ img {
 .slogan h2 {
   font-size: 20px;
   font-family: 'Noto Sans JP';
-  font-weight:normal;
   text-shadow: var(--slogan-shadow);
 }
 

@@ -46,17 +46,23 @@ img,abbr,acronym,fieldset{border:0;}
   color: #42b983;
 }
 
-body {
+body{
+  font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+  -webkit-text-size-adjust:100%;
+  overflow-x: hidden;
+  color: #000;
+  background: #fff;
   margin: 0;
+  font-weight: 400;
 }
 
 section h2{
   padding: 50px 0 20px 0;
   font-size: 22px;
-  font-weight:normal;
   text-align: center;
 }
 h1, h2, h3{
   font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+  font-weight: 600;
 }
 </style>

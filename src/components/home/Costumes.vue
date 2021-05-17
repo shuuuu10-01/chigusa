@@ -14,7 +14,7 @@
         <title-image-text
           title="新衣装"
           :image="getImage('new.png')"
-          text="待ち望んだ新衣装。長髪メガネ帽子チョーカー網タイツ女子に進化。緩いパーカーがどストレート。
+          text="待ちに待った新衣装。長髪メガネ帽子チョーカー網タイツ女子に進化。緩いパーカーがどストレート。
           個人的にはショート帽子チョーカー網タイツが好み。"
         />
       </li>
@@ -45,7 +45,7 @@ export default {
 section {
   display: inline-block;
   width: 90%;
-  max-width: 1000px;
+  max-width: 1100px;
 }
 .top {
   margin-top: 20px;
