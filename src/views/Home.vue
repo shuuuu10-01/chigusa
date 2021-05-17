@@ -2,10 +2,12 @@
   <div class="home">
     <Header />
     <title-and-description :title="title" :description="description"/>
+    <contents />
   </div>
 </template>
 
 <script>
+import Contents from '../components/home/Contents.vue'
 import Header from '../components/home/Header.vue'
 import TitleAndDescription from '../components/home/TitleAndDescription.vue'
 
@@ -13,12 +15,13 @@ export default {
   name: 'Home',
   components: {
     Header,
-    TitleAndDescription
+    TitleAndDescription,
+    Contents
   },
   data () {
     return {
       title: 'CHARACTER',
-      description: '世怜音女学院（通称セレ女）の高等部に通う2年生。太もものほくろと元気いっぱいの笑顔がトレンドマークの女の子。ゲームとBLが大好きで、某馬アプリにに14万課金したとこで「14万の女」とよばれることもしばしば。推しに対して財布の紐が緩く、視聴者からも共感されている。ホラーゲームの敵キャラを恋愛ゲームの攻略対象と思い込むことで怖さを克服しようとした。また、韓国語を話すことができ、APEXの大会では韓国の有名なプロゲーマーと共闘し、熱い試合を繰り広げた。'
+      description: '世怜音女学院（通称セレ女）の高等部に通う2年生。太もものほくろと元気いっぱいの笑顔がトレンドマークの女の子。ゲームとBLが大好きで、某馬アプリにに14万課金したとこで「14万の女」とよばれることもしばしば。推しに対して財布の紐が緩く、視聴者からも共感されている。ホラーゲームの敵キャラを恋愛ゲームの攻略対象と思い込むことで怖さを克服しようとした。また、韓国語を話すことができ、APEXの大会では韓国の有名なプロゲーマーと共闘し、熱い試合を繰り広げた。ショタコン。'
     }
   }
 }
