@@ -21,7 +21,7 @@
       <title-and-description
         class="txt"
         title="GAME"
-        description="日に日に上手くなっていくAPEX。推しに全力投球なウマ娘。バイオハザードはギャルゲー。あなほりポケモンには要注意。"
+        description="日に日に上手くなっていくAPEX。推しに全力投球なウマ娘。バイオハザードはギャルゲー。あなほりポケモンには要注意、ショタトレーナーは逃げて！！"
       />
     </div>
   </section>
@@ -60,7 +60,6 @@ img{
   }
 
   .txt {
-    height: 100%;
     background: #f6f6f6;
   }
 }
