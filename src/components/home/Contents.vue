@@ -47,6 +47,9 @@ img{
   width: 100%;
   height: auto;
 }
+section .txt{
+  padding-bottom: 80px;
+}
 
 @media only screen and (min-width: 800px){
   .txt, .bg{
@@ -62,6 +65,7 @@ img{
 
   .txt {
     background: #f6f6f6;
+    display: table-cell;
   }
 }
 </style>

@@ -56,7 +56,7 @@ section h2{
   font-weight:normal;
   text-align: center;
 }
-h1, h2{
+h1, h2, h3{
   font-family: 'Josefin Sans', 'Noto Sans JP',serif;
 }
 </style>

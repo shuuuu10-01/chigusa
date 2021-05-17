@@ -28,7 +28,6 @@ export default {
 .character{
   width: 60%;
   margin: 0 auto;
-  padding-bottom: 80px;
   font-size: 14px;
   font-family: 'Noto Sans JP';
 }
