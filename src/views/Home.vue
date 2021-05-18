@@ -4,6 +4,7 @@
     <title-and-description style="padding-bottom: 80px;" :title="title" :description="description"/>
     <contents />
     <costumes />
+    <story />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Contents from '../components/home/Contents.vue'
 import Costumes from '../components/home/Costumes.vue'
 import Header from '../components/home/Header.vue'
+import Story from '../components/home/Story.vue'
 import TitleAndDescription from '../components/home/TitleAndDescription.vue'
 
 export default {
@@ -19,7 +21,8 @@ export default {
     Header,
     TitleAndDescription,
     Contents,
-    Costumes
+    Costumes,
+    Story
   },
   data () {
     return {

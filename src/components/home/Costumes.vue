@@ -46,6 +46,7 @@ section {
   display: inline-block;
   width: 90%;
   max-width: 1100px;
+  padding-bottom: 80px;
 }
 .top {
   margin-top: 20px;
