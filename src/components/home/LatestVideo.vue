@@ -4,7 +4,7 @@
       Latest Videos
     </h2>
     <div class="videos" v-for="i in videoList" :key="i.num">
-      <thumbnail :thumbnail="i.thumbnail" :title="i.title" :description="i.description" />
+      <thumbnail :thumbnail="i.thumbnail" :title="i.title" :description="i.description" :id="i.id"/>
     </div>
   </section>
 </template>

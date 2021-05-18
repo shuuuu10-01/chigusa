@@ -1,5 +1,5 @@
 <template>
-  <div class="video">
+  <div class="video" @click="MoveToYoutube">
     <img :src="thumbnail" />
     <div class="text">
       <h2>{{ title }}</h2>
@@ -22,6 +22,15 @@ export default {
     description: {
       type: String,
       required: true
+    },
+    id: {
+      type: String,
+      required: true
+    }
+  },
+  methods: {
+    MoveToYoutube () {
+      open('https://www.youtube.com/watch?v=' + this.id, '_blank')
     }
   }
 }
@@ -60,7 +69,7 @@ export default {
 
 .text h2 {
   text-align: left;
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 2px;
 }
 img {
