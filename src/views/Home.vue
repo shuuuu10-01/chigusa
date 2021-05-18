@@ -5,6 +5,7 @@
     <contents />
     <costumes />
     <story />
+    <latest-video />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 import Contents from '../components/home/Contents.vue'
 import Costumes from '../components/home/Costumes.vue'
 import Header from '../components/home/Header.vue'
+import LatestVideo from '../components/home/LatestVideo.vue'
 import Story from '../components/home/Story.vue'
 import TitleAndDescription from '../components/home/TitleAndDescription.vue'
 
@@ -22,7 +24,8 @@ export default {
     TitleAndDescription,
     Contents,
     Costumes,
-    Story
+    Story,
+    LatestVideo
   },
   data () {
     return {
