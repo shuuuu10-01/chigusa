@@ -47,6 +47,7 @@ export default {
   box-shadow: var(--video-shadow);
   overflow: hidden;
   cursor: pointer;
+  border-radius: var(--rounded);
 }
 .video:hover{
   box-shadow: var(--hover-shadow);
