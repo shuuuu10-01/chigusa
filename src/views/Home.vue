@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Header />
     <title-and-description style="padding-bottom: 80px;" :title="title" :description="description"/>
     <contents />
     <costumes />
@@ -12,7 +11,6 @@
 <script>
 import Contents from '../components/home/Contents.vue'
 import Costumes from '../components/home/Costumes.vue'
-import Header from '../components/home/Header.vue'
 import LatestVideo from '../components/home/LatestVideo.vue'
 import Story from '../components/home/Story.vue'
 import TitleAndDescription from '../components/home/TitleAndDescription.vue'
@@ -20,7 +18,6 @@ import TitleAndDescription from '../components/home/TitleAndDescription.vue'
 export default {
   name: 'Home',
   components: {
-    Header,
     TitleAndDescription,
     Contents,
     Costumes,

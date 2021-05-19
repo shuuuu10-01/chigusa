@@ -1,8 +1,18 @@
 <template>
   <div id="app">
+    <Header />
     <router-view/>
+    <Footer />
   </div>
 </template>
+
+<script>
+import Footer from './components/home/Footer.vue'
+import Header from './components/home/Header.vue'
+export default {
+  components: { Header, Footer }
+}
+</script>
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Pacifico);

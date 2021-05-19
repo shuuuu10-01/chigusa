@@ -46,7 +46,7 @@ export default {
 <style scoped>
 section {
   display: inline-block;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   width: 100%;
 }
 </style>
