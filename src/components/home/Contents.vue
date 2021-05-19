@@ -5,7 +5,7 @@
       <title-and-description
         class="txt"
         title="IDEL TALK"
-        description="たくさんコメントを読んでくれる。推しの話になると暴走列車。落ち着く声で気付いたら時間が溶けてる。君も沼にハマらないか？"
+        description="たくさんコメントを読んでくれる。推しの話になると暴走列車。落ち着く声で気付いたら時間が溶けてる。君も沼へはまってみませんか？"
       />
     </div>
     <div class="wrap" id="sec02_02">
@@ -13,7 +13,7 @@
       <title-and-description
         class="txt"
         title="SONG"
-        description="綺麗な歌声でいつも癒される。時間帯に合わせて選曲してくれる。深夜の歌配信ではいつの間にか夢の中へ。。。"
+        description="透き通ってて綺麗な歌声でいつも癒される。時間帯に合わせて選曲してくれる。深夜の歌配信ではいつの間にか夢の中へ。。。"
       />
     </div>
     <div class="wrap">

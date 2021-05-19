@@ -3,7 +3,7 @@
     <img src="https://pbs.twimg.com/media/Etes-qOVEAArYDY?format=png&name=large" />
     <div class="slogan">
       <h1>Chihgusa Nishizono</h1>
-      <h2>#にじさんじ #セレ女 #舞元の元嫁</h2>
+      <h2>#にじさんじ #セレ女 #舞元の姪</h2>
     </div>
   </div>
 </template>
