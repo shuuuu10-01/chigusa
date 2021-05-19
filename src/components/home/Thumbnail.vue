@@ -65,7 +65,7 @@ export default {
   overflow: hidden;
   -webkit-box-orient: vertical;
   padding: 0;
-  font-family: 'Josefin Sans', 'Noto Sans JP',serif;;
+  font-family: 'Noto Sans JP';
 }
 
 .text h2 {
