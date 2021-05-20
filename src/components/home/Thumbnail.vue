@@ -82,10 +82,10 @@ img {
     font-size: 15px;
   }
   img {
-    width: 50%;
+    width: 49%;
   }
   .text {
-    width: 50%;
+    width: 49%;
   }
 }
 </style>
