@@ -38,7 +38,6 @@ export default {
           description: item.snippet.description,
           thumbnail: item.snippet.thumbnails.medium.url
         }))
-        this.videoList.reverse()
       })
   }
 }
