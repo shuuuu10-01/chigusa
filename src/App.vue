@@ -16,7 +16,7 @@ export default {
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
 :root {
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans JP',Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

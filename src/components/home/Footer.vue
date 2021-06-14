@@ -8,6 +8,7 @@
       src="https://cdn.svgporn.com/logos/twitter.svg"
       @click="toTwitter"
     />
+    <div>2021 © shuuuu</div>
   </section>
 </template>
 
