@@ -1,24 +1,25 @@
 # chigusa
 
-## Project setup
-```
-npm install
-```
+## 開発環境
+MacOS 10.15.7
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### フレームワーク
+vue.js 2.6.11
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 開発の目的
+サークルのPre-hackの一環として推しのサイトを作るというテーマで開発しました。
+今回の開発でレスポンシブデザインを意識し、おしゃれ感のあるサイトになるように心がけました。
+Twitterで推しが投稿しているサムネイルやファンアートをしようさせていただきました。
 
-### Lints and fixes files
-```
-npm run lint
-```
+作品URL
+https://chigusa.netlify.app/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 開発期間
+３日間ほど（およそ24時間
+
+### こだわったポイント
+YoutubeDataAPIを使って、推しの最新の動画を表示させた
+
+
+#### 今回参考にしたデザインサイト
+https://f-tpl.com/tpl_090/
